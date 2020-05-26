@@ -1,0 +1,67 @@
+[
+  {
+    "surName": "Admin1",
+    "firstName": "Admin1",
+    "email": "admin1@admin1.com",
+    "birthDate": "08/02/1990",
+    "address": "3447 Euismod Rd.",
+    "address2": "",
+    "city": "Toulouse",
+    "zipCode": "75823",
+    "country": "France",
+    "phoneNumber": "16121117-3008",
+    "over18": true,
+    "role": "admin",
+    "hash": "",
+    "token": ""
+  },
+  {
+    "surName": "Admin2",
+    "firstName": "Admin2",
+    "email": "admin2@admin.com",
+    "birthDate": "07/03/1992",
+    "address": "3447 Euismod Rd.",
+    "address2": "",
+    "city": "Toulouse",
+    "zipCode": "75823",
+    "country": "France",
+    "phoneNumber": "16121117-3008",
+    "over18": true,
+    "role": "admin",
+    "hash": "",
+    "token": ""
+  },
+
+  {
+    "surName": "Leveque",
+    "firstName": "Barclay",
+    "email": "quam@iaculis.edu",
+    "birthDate": "05/11/1995",
+    "address": "3447 Euismod Rd.",
+    "address2": "",
+    "city": "Toulouse",
+    "zipCode": "75823",
+    "country": "France",
+    "phoneNumber": "16121117-3008",
+    "over18": true,
+    "role": "user",
+    "hash": "",
+    "token": ""
+  },
+  {
+    "name": "Durand",
+    "firstName": "Deirdre",
+    "email": "ad.litora@nequesed.edu",
+    "birthDate": "27/05/1960",
+    "address": "3986 Vitae St.",
+    "address2": "",
+    "city": "Montbéliard",
+    "zipCode": "46178",
+    "country": "France",
+    "phoneNumber": "16170310-5963",
+    "over18": true,
+    "role": "user",
+    "hash": "",
+    "token": ""
+  }
+]

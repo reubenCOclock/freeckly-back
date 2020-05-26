@@ -1,0 +1,60 @@
+user
+POST "/user/sign-up" {
+      passwordConfirm,
+      password,
+      email,
+      phoneNumber,
+      surName,
+      firstName,
+      birthDate,
+      address,
+      address2,
+      city,
+      zipCode,
+      country,
+      over18
+    } {_id, email, token}
+
+POST "/user/sign-in" { password, email } {_id, email, token}
+
+GET "/user/find/:_id" {
+          _id,
+          email,
+          phoneNumber,
+          surName,
+          firstName,
+          birthDate,
+          address,
+          address2,
+          city,
+          zipCode,
+          country,
+          over18,
+          token
+        }
+
+************************************************
+
+product
+
+POST "/product/create" formData {name: req.fields.name,
+      description,
+      image,
+      seller,
+      initialPrice,
+      currentPrice,
+      lastPriceChange,
+      openedAt,
+      closedAt,
+      createdAt} new product
+
+GET "/product/find-details-all/:_id" {product, productDetails}
+
+GET "/product/is-being-sold/:_id" { product, isBeingSold }
+
+GET "/product/find/:_id" product
+
+
+
+
+
