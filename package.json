@@ -22,7 +22,7 @@
     "lodash": "^4.17.15",
     "mailgun-js": "^0.22.0",
     "moment": "^2.24.0",
-    "moment-timezone": "^0.5.28",
+    "moment-timezone": "^0.5.35",
     "mongoose": "^5.9.2",
     "slugify": "^1.4.0",
     "node-cron": "^2.0.3",
