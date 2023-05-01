@@ -11,6 +11,7 @@ const isSimplyConnected = require("../authentication/isSimplyConnected");
 
 router.post("/like/add/:productId", isUserAuthorized, async (req, res) => {
   try {
+    console.log("Just testing for git, that's all!");
     const productId = req.params.productId;
     // to check if _id is valid
     if (!productId.match(/^[0-9a-fA-F]{24}$/)) {
