@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 // set up env variables
 require("dotenv").config();
+console.log("Je suis en train de changer ce fichier!!");
 
 // import packages
 const cloudinary = require("cloudinary");
