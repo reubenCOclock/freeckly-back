@@ -9,6 +9,8 @@ const Product = require("../models/Product");
 const isUserAuthorized = require("../authentication/isUserAuthorized");
 const isSimplyConnected = require("../authentication/isSimplyConnected");
 
+console.log("another random console.log here")
+
 router.post("/like/add/:productId", isUserAuthorized, async (req, res) => {
   try {
     console.log("Just testing for git, that's all!");
