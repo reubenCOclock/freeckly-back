@@ -3,6 +3,7 @@ const router = express.Router();
 // set up env variables
 require("dotenv").config();
 console.log("Je suis en train de changer ce fichier!!");
+console.log("Maintenant je vais pusher avec les bons droits!!")
 
 // import packages
 const cloudinary = require("cloudinary");
